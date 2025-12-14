@@ -18,32 +18,6 @@ A modern web application for collecting, managing, and analyzing feedback from c
 - **Deployment**: Vercel/Netlify
 - **Other**: GitHub Actions for CI/CD
 
-## Quick Setup
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Heerav04/College-event-feedback.git
-   cd College-event-feedback
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Set up environment variables in `.env.local`:
-   ```
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-   ```
-
-4. Run the development server:
-   ```
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000)[2]
-
-## Usage
 
 ### For Organizers
 - Create new events with details (name, date, description)
